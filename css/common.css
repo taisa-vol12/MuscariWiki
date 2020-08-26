@@ -1,0 +1,512 @@
+* {
+	margin: 0px;
+	padding: 0px;
+    min-height: 0;
+    min-width: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.bg {
+        width: 1920px;
+    height: 1080px;
+    background-position: top:150px;
+    background-image: url("../images/bg.png");
+    background-attachment: fixed;
+}
+
+.bg1 {
+        width: 1920px;
+    height: 1080px;
+    background-position: top:150px;
+    background-image: url("../images/bg1.png");
+    background-attachment: fixed;
+}
+
+.title {
+    left: 675px;
+    height: 400px;
+    text-align: center;
+    position: absolute; top: 220px;
+    color: #ffffff;
+    font-size: 90px;
+    font-family: "Alegreya Sans SC",sans-serif;
+}
+
+.wrapper {
+    width: 1920px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.slick01 {
+    margin: 0px;
+    width: 100%;
+    position: absolute; top: 103px; right: 0px;
+    height: auto;
+    min-width: 1920px;
+}
+
+.musuca {
+    position: absolute; top: 0px; left: 0px;
+    width: 80px;
+    height: 80px;
+    color: #10173b;
+    overflow-y: hidden;
+}
+
+.introduction {
+    position: absolute; top: 25px; left: 150px;
+}
+
+.mod {
+    position: absolute; top: 25px; left: 340px ;
+}
+
+.rule {
+    position: absolute; top: 25px; left: 490px ;
+}
+
+.join {
+    position: absolute; top: 25px; left: 710px;
+}
+
+.donate {
+    position: absolute; top: 25px; left: 870px;
+}
+
+.info {
+    position: absolute; top: 25px; left: 990px;
+}
+
+.kiroku {
+    position: absolute; top: 25px; left: 1120px;
+}
+
+.dynmap {
+    position: absolute; top: 25px; left: 1260px;
+}
+
+.rule1 {
+    position: absolute; top: 25px; left: 442px ;
+}
+
+.join1 {
+    position: absolute; top: 25px; left: 662px;
+}
+
+.donate1 {
+    position: absolute; top: 25px; left: 822px;
+}
+
+.info1 {
+    position: absolute; top: 25px; left: 942px;
+}
+
+.kiroku1 {
+    position: absolute; top: 25px; left: 1072px;
+}
+
+.dynmap1 {
+    position: absolute; top: 25px; left: 1212px;
+}
+
+.btn-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #10173b;
+  color: #FFF;
+}
+.btn-square1 {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+   border: solid 3px #7ab1ff;
+    border-radius: 10px;
+}
+.btn-square:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
+
+.border {
+position: relative; top: 60px;
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.border:hover {
+  background: #ffffff;
+  color: #10173b;
+}
+
+.under {
+    position: absolute; top: 750px; left: 20px;
+    width: 1800px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.twitter {
+    position: relative; left: 15px;
+    height: 750px;
+}
+
+.discord {
+    position: relative; left: 30px;
+    height: 800px;    
+}
+
+.jp {
+    position: relative; left: 45px;
+}
+
+.a {
+    position: absolute; top: 0px;
+}
+
+.intro {
+    width: 1800px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute; top: 760px;
+}
+
+.mods {
+    position: relative; left: 200px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.kame {
+    position: relative; left: 450px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.aoa {
+    position: relative; left: 700px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.youtube {
+    position:absolute; top: 270px; left: 100px;
+}
+
+.movie {
+    position:absolute; top: 110px;
+    width: 100%; 
+    min-width: 1920px;
+}
+
+.monocraft {
+    margin: 0px;
+    position:absolute; left: 1250px;
+}
+
+.dis {
+    border-radius: 35px;
+}
+
+.int {
+    position:absolute; top: 1270px; left: 475px;
+    color: #ffffff;
+    z-index: 1;
+    text-align: center;
+    line-height: 40px;
+    font-family: ＭＳ Ｐ明朝;
+}
+
+.black1 {
+    position:absolute; top: 1250px;
+    height: 990px;
+    width: 1920px;
+}
+
+.cf{
+    text-decoration: none;
+    color: #7a78ff;
+}
+
+.cf:hover{
+    color: #ff0000;
+}
+
+.nov {
+    font-size: 70px;
+    height: 70px;
+}
+
+.smp {
+    position: absolute; left: 300px;
+}
+
+.ssp {
+    position: absolute; left: 1000px;
+}
+
+.rule2 {
+    position: absolute; left: 350px;
+}
+
+.rule3 {
+    color: #ffffff;
+    position: absolute; top: 135px; left: 375px;
+    font-family: ＭＳ Ｐ明朝;
+    line-height: 40px;
+}
+
+.toggle_contents {
+    width: 1200px;
+    line-height: 40px;
+}
+.toggle_title {
+    position: relative;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 26px;
+    line-height: 1.4;
+}
+.toggle_btn {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background: #0052a4;
+    display: block;
+    width: 24px;
+    height: 24px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.toggle_btn:before, .toggle_btn:after {
+    display: block;
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.toggle_btn:before {
+    width: 2px;
+    height: 10px;
+}
+.toggle_title.selected .toggle_btn:before {
+    content: normal;
+}
+.toggle_contents dd {
+    display: none;
+}
+
+.link {
+    color: #0095ff;
+}
+
+.donatete{
+    position:absolute ;top:;
+}
+
+#pagejump_demo .scroll_button a{
+    position: fixed;
+    display: block;
+    right:50px;
+    bottom:50px;
+    background: #313131;
+    color:#fff;
+    padding:20px;
+}
+
+.down {
+    width: 100px;
+    position: absolute; top: 400px; left: 905px;
+}
+
+.infotitle {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.fofo {
+    font-family: ＭＳ Ｐ明朝;
+    line-height: 40px;
+}
+
+.facebox{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    z-index: 999
+}
+
+.facebox:hover {
+    color: #fbff00;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aa {
+    display:flex;
+    position: absolute; left: 300px; top: 1000px;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.devjob {
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.commands {
+    position: absolute; top: 2700px; left: 800px;
+    text-align: center;
+}
+
+.commands1 {
+    position: absolute; top: 2750px; left: 730px;
+    text-align: center;
+}
+
+.down1 {
+    width: 100px;
+    position: absolute; top: 3000px; left: 905px;
+}
+
+.bug {
+    position: absolute; top: 3700px; left: 850px;
+    text-align: center;
+    z-index: 999
+    height: 40px;
+}
+
+.bug1 {
+    position: absolute; top: 3800px; left: 600px;
+    text-align: center;
+}
+
+.down3 {
+    position: absolute; top: 4000px; left: 905px;
+    width: 100px;
+    z-index: 3
+}
+
+.spec {
+    position: absolute; top: 4700px; left: 800px;
+}
+
+.spec1 {
+    position: absolute; top: 4750px; left: 720px;
+}
+
+.top1 {
+    position: fixed; top: 850px; left: 865px;
+    z-index: 999
+}
+
+li {
+    list-style: none;
+}
+
+#myTable thead td{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#myTable tbody td{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#myTable thead tr{
+    background-color: #CCCCCC;
+}
+#myTable tbody tr.odd{
+    background-color: #FFFFFF;
+}
+#myTable tbody tr.even{
+    background-color: #EEEEEE;
+}
+
+#myTable thead td:first-child{
+    border-left: 1px solid #404040;
+}
+#myTable thead td{
+    border-top: 1px solid #404040;
+    border-right: 1px solid #404040;
+}
+
+#myTable tbody td:first-child{
+    border-left: 1px solid #404040;
+}
+#myTable tbody td{
+    border-right: 1px solid #404040;
+}
+
+#myTable {
+    width: 1000px;
+}
+
+.data {
+    position: absolute; top: 100px; left: 50px;
+    width: 1800px;
+}
+
+.devteam {
+    position: absolute; top: 100px; left: 50px;
+}
+
+.devteam1 {
+    position: absolute; top: 970px; left: 270px;
+}
+
+.devteam2 {
+    position: absolute; top: 3650px; left: 270px;
+    z-index: 
+}
+
+.devteam3 {
+    position: absolute; top: 4670px; left: 270px;
+    z-index: 
+}
+
+.s9 {
+    z-index: 1;
+    position:absolute; top: 375px; left: 1050px;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.rulele {
+    border: solid 3px #6091d3;
+    border-radius: 10px;
+}
