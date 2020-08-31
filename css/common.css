@@ -482,20 +482,20 @@ li {
 }
 
 .devteam {
-    position: absolute; top: 100px; left: 50px;
+    position: absolute; top: 100px;
 }
 
 .devteam1 {
-    position: absolute; top: 970px; left: 270px;
+    position: absolute; top: 970px;
 }
 
 .devteam2 {
-    position: absolute; top: 3650px; left: 270px;
+    position: absolute; top: 3650px;
     z-index: 
 }
 
 .devteam3 {
-    position: absolute; top: 4670px; left: 270px;
+    position: absolute; top: 4670px;
     z-index: 
 }
 
@@ -509,4 +509,8 @@ li {
 .rulele {
     border: solid 3px #6091d3;
     border-radius: 10px;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
 }
