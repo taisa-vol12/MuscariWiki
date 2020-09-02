@@ -1,0 +1,309 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: #fff;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+/*------------------------------
+
+  ここから下がハンバーガーメニュー
+  に関するCSS
+
+------------------------------*/
+  
+/* チェックボックスは非表示に */
+.drawer-hidden {
+  display: none;
+}
+
+/* ハンバーガーアイコンの設置スペース */
+.drawer-open {
+  display: flex;
+  height: 120px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;/* 重なり順を一番上に */
+  cursor: pointer;
+}
+
+/* ハンバーガーメニューのアイコン */
+.drawer-open span,
+.drawer-open span:before,
+.drawer-open span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 50px;
+  border-radius: 3px;
+  background: #333;
+  transition: 0.5s;
+  position: absolute;
+}
+
+/* 三本線のうち一番上の棒の位置調整 */
+.drawer-open span:before {
+  bottom: 16px;
+}
+
+/* 三本線のうち一番下の棒の位置調整 */
+.drawer-open span:after {
+  top: 16px;
+}
+
+/* アイコンがクリックされたら真ん中の線を透明にする */
+#drawer-check:checked ~ .drawer-open span {
+  background: rgba(255, 255, 255, 0);
+}
+
+/* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+#drawer-check:checked ~ .drawer-open span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+#drawer-check:checked ~ .drawer-open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+  
+/* メニューのデザイン*/
+.drawer-content {
+  padding: 0.5em;/*文字周りの余白*/
+  color: #494949;/*文字色*/
+  background: #fffaf4;/*背景色*/
+  border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
+  font-size: 200%;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 100%;/* メニューを画面の外に飛ばす */
+  z-index: 99;
+  transition: .5s;
+}
+
+/* アイコンがクリックされたらメニューを表示 */
+#drawer-check:checked ~ .drawer-content {
+  left: 50%;/* メニューを画面に入れる */
+}
+
+.slider {
+  width: 100%;
+  position:relative; right:2%;
+}
+
+.twitter {
+  width: 200%;
+}
+
+.under {
+  display: flex;
+  margin-left: 20px;
+}
+
+.jp {
+  text-align: center;
+}
+
+.title {
+  position: absolute; top:210px; left:20%;
+  text-align: center;
+  font-size: 320%;
+  color: #ffffff;
+  font-family: "Alegreya Sans SC",sans-serif;
+}
+
+.border {
+position: relative; top: 20px;
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+body {
+  background-color:#fffaf4;
+}
+
+.btn-flat-dashed-filled {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #ffaf58;
+  border: dashed 1px #ffaf58;
+  background: #fffaf4;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.btn-flat-dashed-filled:hover {
+  background: #ffaf58;
+  color: #FFF;
+}
+
+ul {
+  list-style: none;
+}
+
+.movie {
+  width: 100%;
+}
+
+.youtube {
+  position: absolute; top: 90px; left: 10px;
+}
+
+.s9 {
+  position: absolute; top: 250px; right: 30px;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.intro {
+  text-align: center;
+  position: relative; top: 30px;
+  font-size: 40px;
+}
+
+.int {
+  position: relative; top: 30px;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cf{
+    text-decoration: none;
+    color: #fff000;
+}
+
+#myTable thead td{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#myTable tbody td{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#myTable thead tr{
+    background-color: #CCCCCC;
+}
+#myTable tbody tr.odd{
+    background-color: #FFFFFF;
+}
+#myTable tbody tr.even{
+    background-color: #EEEEEE;
+}
+
+#myTable thead td:first-child{
+    border-left: 1px solid #404040;
+}
+#myTable thead td{
+    border-top: 1px solid #404040;
+    border-right: 1px solid #404040;
+}
+
+#myTable tbody td:first-child{
+    border-left: 1px solid #404040;
+}
+#myTable tbody td{
+    border-right: 1px solid #404040;
+}
+
+#myTable {
+    width: 1000px;
+}
+
+.rulele {
+    border: solid 3px #ffaf58;
+    border-radius: 10px;
+}
+
+.toggle_contents {
+    width: 1200px;
+    line-height: 40px;
+}
+.toggle_title {
+    position: relative;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 26px;
+    line-height: 1.4;
+}
+.toggle_btn {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background: #0052a4;
+    display: block;
+    width: 24px;
+    height: 24px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.toggle_btn:before, .toggle_btn:after {
+    display: block;
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.toggle_btn:before {
+    width: 2px;
+    height: 10px;
+}
+.toggle_title.selected .toggle_btn:before {
+    content: normal;
+}
+.toggle_contents dd {
+    display: none;
+}
+
+.link {
+    color: #0095ff;
+}
+
+.center {
+  text-align: center;
+}
+
+.facebox{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+.aa {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.devtext {
+  width:68%;
+}
+
+hr {
+  position: absolute; left: 0px
+}
